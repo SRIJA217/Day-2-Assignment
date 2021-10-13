@@ -1,5 +1,4 @@
 import java.util.Scanner;
-
 public class Exchangechar
 {
      public static void main(String args[])
@@ -12,9 +11,7 @@ public class Exchangechar
             char temp = s2[i];
             s2[i] = s2[i + 1];
             s2[i + 1] = temp;
-          
-          }
-    
+          }    
     System.out.println(s2);
     }
 }
