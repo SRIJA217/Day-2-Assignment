@@ -1,13 +1,12 @@
 import java.util.Scanner;
-
-public class Hash
+public class HashCodeExample
 {
      public static void main(String args[])
      {
+          System.out.println("Enter the input");
           Scanner s = new Scanner(System.in);
-          String s1 = s.nextLine();
-          String s2 = s.nextLine();
-          System.out.println("Hashcode for "+s1+" : " + s1.hashCode());
-          System.out.println("Hashcode for "+s2+" : " + s2.hashCode());
+          Integer i=sc.nextInt();
+          int HashValue=Integer.hashCode(i);
+          System.out.println(HashValue);
     }
 }
